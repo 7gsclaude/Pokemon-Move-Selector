@@ -1,3 +1,8 @@
 h1{
     color: red;
 }
+/* should capitolize first letter  */
+p::first-letter {
+    text-transform: uppercase;
+} 
+
