@@ -5,28 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/stlyes.css"> 
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
     <script src="/js/script.js" defer></script>
     <script   src="https://code.jquery.com/jquery-3.6.1.min.js"   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="   crossorigin="anonymous"></script>
 
     <title>Document</title>
 </head>
 <body id="body">
-    <h1>Working</h1>
- <div>
-    <form id="form-section">
-        <label for='pokemon'>Type in your pokemon</label>
+    <h1>Pokemon Move Selector</h1>
+
+<main>
+     <div>
+    <form id="form-section-player">
+        <label for='pokemon'>Type in your Pokemon</label>
         <input id="textBox" type="text" placeholder="Pokemon"/>
         <button id="pokeSubmit" type="submit">Find Pokemon </button> 
     </form>
 </div>
-<main>
+    <div id="player-pokemon">
+    <h2>Player's Pokemon</h2>
     <h3>Pokemon</h3>
     <p id="pokemon"></p>
     <h3>Move set</h3>
     <p id="moveSet"></p>
     <h3>Type</h3>
     <p id="type"></p>
+    <h3>Second Type</h3>
+    <p id="player-type2"></p>
+
+    </div>
+     <div>
+    <form id="form-section-enemy">
+        <label for='pokemon'>Type in Enemy Pokemon</label>
+        <input id="textBox" type="text-box" placeholder="Pokemon"/>
+        <button id="pokeSubmit" class="enemy-submit" type="submit">Find Pokemon </button> 
+    </form>
+</div>
+
+    <div id="enemy-selection">
+    <h2>Enemy Pokemon</h2>    
+    <h3>Pokemon</h3>   
+    <p id="enemy-pokemon"></p>
+    <h3>Move set</h3>
+    <p id="enemy-moveset"></p>
+    <h3>Type</h3>
+    <p id="enemy-type"></p>
+    <h3>Second Type</h3>
+    <p id="enemy-type2"></p>
+    
+    </div>
 </main>
+
+
 
 </body>
 </html>

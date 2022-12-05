@@ -6,3 +6,6 @@ p::first-letter {
     text-transform: uppercase;
 } 
 
+#body{
+font-family:'Pokemon Solid', sans-serif; 
+}
