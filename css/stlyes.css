@@ -1,5 +1,11 @@
 h1{
     color: #F8F988;
+    border: groove;
+    border-color: #2a75bb;
+}
+
+h3{
+    padding: 20px;
 }
 /* should capitolize first letter  */
 p::first-letter {
@@ -11,21 +17,52 @@ background-color:#2a75bb ;
 font-family: 'Pokemon Fire Red', sans-serif;
 
 }
-
-#proj-title{
-font-family: 'Pokemon Solid', sans-serif;
-background-color: #FF9E9E;
-text-align: center;
+#proj-title {
+    font-family: 'Pokemon Solid', sans-serif;
+    background-color: #FF9E9E;
+    text-align: center;
+    width: 100%;
 }
 
-.flex-container{
-height: 550px;
-width: 480px;
-display: flex;
+#movesets{
+    overflow: auto;
+    height: 250px;
 }
+
+
+#player-pokemon {
+    display: flex;
+    justify-items: space-between;
+}
+
+/* below are all the flex container properties  */
+
+
+.flexbox-container {
+    height: 98%;
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+   
+    border: groove; 
+    border-color:#2a75bb; 
+    flex-wrap: wrap;
+
+}
+
+
+
+
 .flexbox-item-form{
-background-color: #FF9E9E; 
+background-color: #FF9E9E;
+flex-direction: row;
+
 }
 .flexbox-item-infobox{
     overflow: visible;
+    /* width: 98%; */
+    align-items: center;
+    align-items: flex-start;
 }
+
+
