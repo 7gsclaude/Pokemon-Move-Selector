@@ -18,6 +18,20 @@ const nationalDex = `https://pokeapi.co/api/v2/pokemon/`; // i think to only the
 // /limit2000&offset=0
 // ${($input)}
 
+///////////////////////
+// objects 
+  //////////
+ const fireType = {
+   superEffective: ["ice", "grass", "bug", "steel"],
+   notVeryEffective: ["fire", "dragon", "rock", "water"]
+ };
+
+      // if (getNationalDex == fireType.superEffective) {
+      //   // if the second typing is super effective alert super effective
+      //   alert = "You're super effective!";
+      // }
+
+
 //not sure how to input the name from a  text box but it holds 
 
 /////////
@@ -26,7 +40,7 @@ const nationalDex = `https://pokeapi.co/api/v2/pokemon/`; // i think to only the
 
 $body = $("#body");
 $pokeSubmit = $("#pokeSubmit");
-$form = $("#form-section-player");
+$form = $("#form-section-player"); 
 $enemyForm = $("#form-section-enemy");
 
 /////
@@ -48,8 +62,6 @@ function getNationalDex(event) {
   if (userInput === "") return;
   $input.val("");//starts with a blank input i believe 
   $.ajax(nationalDex + userInput) //gets url and adds the userinput
-  
-    // nationalDex.innerHtml(+'')
     .then((data) => {
       console.log(data); //    render(data.results)
       $pokemon.text(data.name);
@@ -69,6 +81,8 @@ function getNationalDex(event) {
     })
     .catch(function (error) {
       console.log(error);
+
+      
     });
   
   //   function render(pokemon) {
@@ -85,7 +99,6 @@ function getNationalDex(event) {
 function getEnemyNationalDex(event) {
   event.preventDefault(); //allows mee to stop the submit button from functioning  for example
   userInput = $enemyInput.val(); //get value from the input on the textbox
-  // userInput.charAt(0).toUpperCase;
   if (userInput === "") return;
   $enemyInput.val(""); //starts with a blank input i believe
   $.ajax(nationalDex + userInput) //gets url and adds the userinput
@@ -96,7 +109,7 @@ function getEnemyNationalDex(event) {
       for (const move of data.moves) {
         //iterates over moveset array in api
         $("<p>", {
-          // this creates a new <p> for every move in the array
+          //creates a new <p> for every move in the array
           id: "move",
           class: "moves",
         })
@@ -106,28 +119,26 @@ function getEnemyNationalDex(event) {
       $enemyType.text(data.types[0].type.name);
       $secondEnemyType.text(data.types[1].type.name);
 
-      if ($secondEnemyType == "") {
-         $("<p>", {
-           text: "no second typing",// this creates a new <p> for every move in the array
-           id: "move",
-           class: "moves",
-         });
-      }
-
+      console.log(data.types);
     })
     .catch(function (error) {
       console.log(error);
     });
+  
+  //       if (fireType.superEffective.includes("ice")) { //checks supereffectiness of ice on every <p></p>
+  //         // if the second typing is super efficeective alert super effective
+  //         console.log("Its super effective!");
+  //       }
+
+  // 
 }
 
 
+// ///////
+// if statements 
+//   //////
 
-///////////////////////
-// objects 
-  //////////
-
-
- 
+  
 
 /////psudocode
 /*

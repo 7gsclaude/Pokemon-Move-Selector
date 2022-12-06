@@ -1,11 +1,31 @@
 h1{
-    color: red;
+    color: #F8F988;
 }
 /* should capitolize first letter  */
 p::first-letter {
     text-transform: uppercase;
 } 
 
-#body{
-font-family:'Pokemon Solid', sans-serif; 
+#app-body{
+background-color:#2a75bb ;
+font-family: 'Pokemon Fire Red', sans-serif;
+
+}
+
+#proj-title{
+font-family: 'Pokemon Solid', sans-serif;
+background-color: #FF9E9E;
+text-align: center;
+}
+
+.flex-container{
+height: 550px;
+width: 480px;
+display: flex;
+}
+.flexbox-item-form{
+background-color: #FF9E9E; 
+}
+.flexbox-item-infobox{
+    overflow: visible;
 }
