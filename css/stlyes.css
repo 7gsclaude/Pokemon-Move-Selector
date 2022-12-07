@@ -1,3 +1,7 @@
+/* should capitolize first letter  */
+p::first-letter {
+    text-transform: uppercase;
+}
 h1{
     color: #F8F988;
     border: groove;
@@ -7,10 +11,7 @@ h1{
 h3{
     padding: 20px;
 }
-/* should capitolize first letter  */
-p::first-letter {
-    text-transform: uppercase;
-} 
+
 
 #app-body{
 background-color:#2a75bb ;
@@ -26,7 +27,7 @@ font-family: 'Pokemon Fire Red', sans-serif;
 
 #movesets{
     overflow: auto;
-    height: 250px;
+    height: 280px;
 }
 
 
@@ -34,6 +35,17 @@ font-family: 'Pokemon Fire Red', sans-serif;
     display: flex;
     justify-items: space-between;
 }
+
+/* second section */
+
+#enemy-selection{
+    display: flex;
+    justify-items: space-between;
+}
+
+
+
+
 
 /* below are all the flex container properties  */
 
@@ -64,5 +76,10 @@ flex-direction: row;
     align-items: center;
     align-items: flex-start;
 }
-
+.flexbox-item-infobox2{
+overflow: visible;
+    /* width: 98%; */
+    align-items: center;
+    align-items: flex-start;
+}
 
