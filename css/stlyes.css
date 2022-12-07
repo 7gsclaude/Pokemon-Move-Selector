@@ -51,8 +51,8 @@ font-family: 'Pokemon Fire Red', sans-serif;
 
 
 .flexbox-container {
-    height: 98%;
-    width: 98%;
+    height: 720;
+    width: 480px;
     display: flex;
     justify-content: space-around;
    
