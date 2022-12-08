@@ -4,7 +4,7 @@
 
 
 ##The capibilities of the app consist of being able to compare two Pokemon against their moves, and typing. 
-The app should declare if you will be super effective not very effective and so on. 
+
 
 Technologies used in this project are JS, JS Query, CSS, HTML, importation of fonts. 
 
@@ -20,4 +20,6 @@ https://pokemoveselect.netlify.app
 
 FUTURE ENHANCEMENTS:
 
-Creating an ajax call to get the pokemon sprite. I also wanted style the app to look more like a pokedex. 
+Creating an ajax call to get the pokemon sprite. 
+I also wanted style the app to look more like a pokedex. 
+The app should declare if you will be super effective not very effective and so on. Unfortunately I couldnt get to those features. 
