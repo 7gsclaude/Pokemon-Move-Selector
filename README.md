@@ -10,6 +10,7 @@ Technologies used in this project are JS, JS Query, CSS, HTML, importation of fo
 
 
 SCREEENSHOT
+
 <img src="https://github.com/7gsclaude/Pokemon-Move-Selector/blob/master/images/screenshot1.jpeg?raw=true">
 
 <img src="https://github.com/7gsclaude/Pokemon-Move-Selector/blob/master/images/screenshot2.jpeg?raw=true">
