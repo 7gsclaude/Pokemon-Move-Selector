@@ -10,9 +10,9 @@ Technologies used in this project are JS, JS Query, CSS, HTML, importation of fo
 
 
 SCREEENSHOT
-<img src="/Users/claudeallen/Desktop/project1/images/screenshot1.png">
+<img src="https://github.com/7gsclaude/Pokemon-Move-Selector/blob/master/images/screenshot1.jpeg?raw=true">
 
-<img src="/Users/claudeallen/Desktop/project1/images/screenshot2">
+<img src="https://github.com/7gsclaude/Pokemon-Move-Selector/blob/master/images/screenshot2.jpeg?raw=true">
 DEPLOYEED APP LINK:
 
 https://pokemoveselect.netlify.app
