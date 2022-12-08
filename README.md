@@ -10,9 +10,9 @@ Technologies used in this project are JS, JS Query, CSS, HTML, importation of fo
 
 
 SCREEENSHOT
-<img src="/Users/claudeallen/Desktop/Screen Shot 2022-12-07 at 1.11.31 AM.png" alt='project1 screen shot'>
+<img src="/Users/claudeallen/Desktop/project1/images/Screen Shot 2022-12-07 at 1.10.56 AM.png">
 
-<img src="/Users/claudeallen/Desktop/Screen Shot 2022-12-07 at 1.10.56 AM.png" alt='project1 screen shot'>
+<img src="/Users/claudeallen/Desktop/project1/images/Screen Shot 2022-12-07 at 1.11.31 AM.png">
 DEPLOYEED APP LINK:
 
 https://pokemoveselect.netlify.app
